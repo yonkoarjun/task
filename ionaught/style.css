@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.backg{
+    background-image: url(desktop.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.homecover{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 20px;
+}
+.roof{
+    width: 0;
+    height:0;
+    border-left: 30px solid transparent;
+    border-right:30px solid transparent;
+    border-bottom: 30px solid black;
+    margin: auto;
+    margin-top: 10px;
+}
+.walls{
+    width: 40px;
+    height: 20px;
+    margin: auto;
+    background-color: black;
+}
+.door{
+    background-color: white;
+    width: 20px;
+    height: 30px;
+    margin: auto;
+}
+.searchbar{
+    height: 50px;
+    width: 80%;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 35px;
+    align-items: center;
+    display: flex;
+}
+.searchbar h2{
+    margin: 30px;
+    font-family: 'Segoe UI';
+    color: #C69C9C;
+}
+.pgmcover{
+    width: 80%;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 1px solid gray;
+}
+.pgmcover h1{
+    background-color: red;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    width: 300px;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+}
+.pgmcover h4{
+    background-color: #F3F5C5 ;
+    border: 1px solid blueviolet;
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+.courses{
+    width: 100%;
+    display: flex;
+}
+.course{
+    width: 250px;
+    text-align: center;
+    margin: 20px;
+}
+.course h3{
+    background-color: #3D4F68;
+    color: #fff;
+    font-family: Segoe UI;
+    height: 30px;
+    border-radius: 10px 30px;
+    padding: 5px;
+}
+.cbody{
+    background-color: pink;
+    padding: 5px;
+    margin: 10px;
+}
+.cimg{
+    background-image: url(desktop.png);
+    height: 100px;
+    background-size: cover;
+    border-radius: 50px;
+}
+.ccontent{
+    background-color: #fff;
+    font-family: Segoe UI;
+    margin: 5px;
+}
+.ccontent p{
+    font-weight: 700;
+    padding: 5px;
+}
+.ccontent button{
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    background-color: #7FB80D;
+    border: none;
+    color: #fff;
+    font-weight: 800;
+}
+.footer{
+    background-color: #3D4F68;
+    width: 100%;
+    font-family: 'Segoe UI';
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    color: #fff;
+}
